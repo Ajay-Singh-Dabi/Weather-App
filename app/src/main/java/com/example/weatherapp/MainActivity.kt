@@ -15,6 +15,8 @@ import android.os.Bundle
 import android.os.Looper
 import android.provider.Settings
 import android.util.Log
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AlertDialog
@@ -198,6 +200,22 @@ class MainActivity : AppCompatActivity() {
             mProgressDialog!!.dismiss()
         }
     }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main,menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when(item.itemId){
+            R.id.action_refresh ->{
+                requestLocationData()
+                true
+            }else -> super.onOptionsItemSelected(item)
+        }
+    }
+
+
 
     @RequiresApi(Build.VERSION_CODES.N)
     private fun setupUI(weatherList: WeatherResponse){
