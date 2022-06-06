@@ -3,6 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/close.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/cloud.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/evening.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/humidity.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/location.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/morning.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/rain.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/drawable/snowflake.xml" value="0.2703125" />
+        <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Android Apps/WeatherApp/app/src/main/res/layout/dialog_custom_progress.xml" value="0.25416666666666665" />
       </map>
     </option>
